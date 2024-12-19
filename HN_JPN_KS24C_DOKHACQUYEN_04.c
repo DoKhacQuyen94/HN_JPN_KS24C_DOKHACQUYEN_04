@@ -93,7 +93,7 @@ int main(){
             break;
         case 8:
             int start=0;
-            int end = sizeof(arr)/sizeof(int);
+            int end = sizeof(arr)/sizeof(int); # cần sửa cho nó = soPhanTu; vì nếu dùng lệnh này thì sẽ có độ dài 100 nên lỗi
             int mid = (start+end)/2;
             printf("Nhập phần tử cần tìm: ");
             scanf("%d",&searchValue);
